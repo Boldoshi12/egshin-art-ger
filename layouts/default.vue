@@ -81,7 +81,7 @@ const navItems = [
                 <span class="text-xs font-bold text-slate-400 tracking-wider uppercase">
                   Уран зургийн урлан
                 </span>
-              </div>``
+              </div>
             </NuxtLink>
 
             <!-- Desktop Nav -->

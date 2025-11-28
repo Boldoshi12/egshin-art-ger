@@ -15,6 +15,20 @@ type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {},
 
 interface _GlobalComponents {
   'FadeInSection': typeof import("../../components/FadeInSection.vue")['default']
+  'ContactHeroSection': typeof import("../../components/contact/ContactHeroSection.vue")['default']
+  'ContactInfoSection': typeof import("../../components/contact/ContactInfoSection.vue")['default']
+  'ExhibitionsHeader': typeof import("../../components/exhibitions/ExhibitionsHeader.vue")['default']
+  'ExhibitionsList': typeof import("../../components/exhibitions/ExhibitionsList.vue")['default']
+  'HomeHeroSection': typeof import("../../components/home/HeroSection.vue")['default']
+  'HomeIntroSection': typeof import("../../components/home/IntroSection.vue")['default']
+  'HomeInvitationSection': typeof import("../../components/home/InvitationSection.vue")['default']
+  'HomePhilosophySection': typeof import("../../components/home/PhilosophySection.vue")['default']
+  'ProgramsGrid': typeof import("../../components/programs/ProgramsGrid.vue")['default']
+  'ProgramsHeader': typeof import("../../components/programs/ProgramsHeader.vue")['default']
+  'ProjectsContent': typeof import("../../components/projects/ProjectsContent.vue")['default']
+  'ProjectsHeader': typeof import("../../components/projects/ProjectsHeader.vue")['default']
+  'ShopContent': typeof import("../../components/shop/ShopContent.vue")['default']
+  'ShopHeader': typeof import("../../components/shop/ShopHeader.vue")['default']
   'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   'NuxtErrorBoundary': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -39,6 +53,20 @@ interface _GlobalComponents {
   'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
   'NuxtIsland': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
   'LazyFadeInSection': LazyComponent<typeof import("../../components/FadeInSection.vue")['default']>
+  'LazyContactHeroSection': LazyComponent<typeof import("../../components/contact/ContactHeroSection.vue")['default']>
+  'LazyContactInfoSection': LazyComponent<typeof import("../../components/contact/ContactInfoSection.vue")['default']>
+  'LazyExhibitionsHeader': LazyComponent<typeof import("../../components/exhibitions/ExhibitionsHeader.vue")['default']>
+  'LazyExhibitionsList': LazyComponent<typeof import("../../components/exhibitions/ExhibitionsList.vue")['default']>
+  'LazyHomeHeroSection': LazyComponent<typeof import("../../components/home/HeroSection.vue")['default']>
+  'LazyHomeIntroSection': LazyComponent<typeof import("../../components/home/IntroSection.vue")['default']>
+  'LazyHomeInvitationSection': LazyComponent<typeof import("../../components/home/InvitationSection.vue")['default']>
+  'LazyHomePhilosophySection': LazyComponent<typeof import("../../components/home/PhilosophySection.vue")['default']>
+  'LazyProgramsGrid': LazyComponent<typeof import("../../components/programs/ProgramsGrid.vue")['default']>
+  'LazyProgramsHeader': LazyComponent<typeof import("../../components/programs/ProgramsHeader.vue")['default']>
+  'LazyProjectsContent': LazyComponent<typeof import("../../components/projects/ProjectsContent.vue")['default']>
+  'LazyProjectsHeader': LazyComponent<typeof import("../../components/projects/ProjectsHeader.vue")['default']>
+  'LazyShopContent': LazyComponent<typeof import("../../components/shop/ShopContent.vue")['default']>
+  'LazyShopHeader': LazyComponent<typeof import("../../components/shop/ShopHeader.vue")['default']>
   'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   'LazyNuxtErrorBoundary': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
