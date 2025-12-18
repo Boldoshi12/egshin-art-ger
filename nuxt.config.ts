@@ -21,5 +21,13 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/css/main.css'],
+  
+  // GraphQL endpoint configuration
+  runtimeConfig: {
+    public: {
+      graphqlEndpoint: process.env.NUXT_PUBLIC_GRAPHQL_ENDPOINT || 'http://127.0.0.1:8080/graphql'
+    }
+  },
+  
   compatibilityDate: '2025-01-01'
 })
